@@ -1,7 +1,7 @@
 extern double sin(double);
 extern double cos(double);
 
-double sink(int *arr, unsigned n) {
+double test(int *arr, unsigned n) {
   double res = 0;
   for (int i = 0; i < n; i++) {
     double partial_res = sin(arr[i]) * cos(arr[i]);
