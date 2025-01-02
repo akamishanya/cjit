@@ -1,5 +1,6 @@
 #include "CustomPass.h"
 #include <llvm/IR/PassManager.h>
+#include <llvm/IR/Function.h>
 
 using namespace llvm;
 using namespace opt;
