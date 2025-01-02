@@ -1,0 +1,9 @@
+.cache
+build
+.DS_Store
+*.svg
+*.dot
+compile_commands.json
+*.ll.init
+*.ll.opt
+*.ll.opt-O3
