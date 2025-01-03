@@ -8,7 +8,7 @@
 #include "llvm/Transforms/Scalar/LICM.h"
 #include "llvm/Transforms/Scalar/LoopUnrollPass.h"
 #include "llvm/Transforms/Vectorize/LoopVectorize.h"
-#include <llvm-19/llvm/Passes/OptimizationLevel.h>
+#include <llvm/Passes/OptimizationLevel.h>
 #include <llvm/IR/LLVMContext.h>
 #include <llvm/IR/Module.h>
 #include <llvm/IR/Verifier.h>
